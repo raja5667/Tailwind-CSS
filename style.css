@@ -1,0 +1,19 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ffd700;
+    border-radius: 10px;
+}
+
+/* Navbar Hover Effects */
+nav ul li a:hover {
+    color: #ffd700;
+    transition: color 0.3s;
+}
+
+#sideSlider::-webkit-scrollbar {
+    display: none;
+}
+
